@@ -1,2 +1,2 @@
-# FMS-test-UI-2
-UI for FMS test project TLU
+# FMS-test-UI
+UI for FMS test project

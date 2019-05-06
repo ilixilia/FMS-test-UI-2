@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/First-page.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Learn-more.unity
+    guid: 46421c8543eed7342baa5a5bcd1c4be1
+  - enabled: 1
+    path: Assets/Scenes/Check-your-Muve.unity
+    guid: db7e4466073bc284ab7a5f9a2cf4b740
+  - enabled: 1
+    path: Assets/Scenes/Ready_steady.unity
+    guid: fe01412aa4091f24682660a7fc63a690
+  - enabled: 1
+    path: Assets/Scenes/One-last-thing.unity
+    guid: 01cf949599e417d40b937fd3903d140c
+  - enabled: 1
+    path: Assets/Scenes/Report.unity
+    guid: 8f08506c1c77fc8479edb032ca97c7c7
+  m_configObjects: {}
