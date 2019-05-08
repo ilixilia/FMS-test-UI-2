@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{D787B244-EEA0-9EFC-5B0C-A030DB4BF537}</ProjectGuid>
+    <ProjectGuid>{946E28A1-3AB3-745C-67A5-CCEC3C244DB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -64,16 +64,16 @@
     <Compile Include="Assets\Modern UI Pack\Editor\InitMUIP.cs" />
     <Compile Include="Assets\Modern UI Pack\Editor\ModernUI.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI-2/FMS-test-UI-2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI-2/FMS-test-UI-2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI-2/FMS-test-UI-2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI-2/FMS-test-UI-2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Windows.old/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -363,7 +363,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{4E38B6AD-AA19-A678-B45F-FCC45C2B54D6}</Project>
+      <Project>{6DD13EC1-0B7D-CB01-B7E7-35BCC4961614}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

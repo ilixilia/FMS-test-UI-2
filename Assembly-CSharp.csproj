@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{4E38B6AD-AA19-A678-B45F-FCC45C2B54D6}</ProjectGuid>
+    <ProjectGuid>{6DD13EC1-0B7D-CB01-B7E7-35BCC4961614}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -88,13 +88,13 @@
     <Compile Include="Assets\Scripts\BarChart.cs" />
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\DisplayInfo.cs" />
-    <Compile Include="Assets\Scripts\goToFinal.cs" />
     <Compile Include="Assets\Scripts\InputInfo.cs" />
     <Compile Include="Assets\Scripts\ModelWindowController.cs" />
     <Compile Include="Assets\Scripts\ShareReport.cs" />
     <Compile Include="Assets\Scripts\sliders.cs" />
     <Compile Include="Assets\Scripts\test.cs" />
     <Compile Include="Assets\Scripts\WindowController.cs" />
+    <Compile Include="Assets\Share.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -153,16 +153,16 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI-2/FMS-test-UI-2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI-2/FMS-test-UI-2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI-2/FMS-test-UI-2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/ILIXILIA/Доки/TLU/Interaction-Design-Methods/FMS-test-UI-2/FMS-test-UI-2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Windows.old/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

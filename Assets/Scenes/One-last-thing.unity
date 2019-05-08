@@ -744,6 +744,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1714030048}
+  - {fileID: 1163860576}
   m_Father: {fileID: 926118376}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3563,7 +3564,6 @@ RectTransform:
   - {fileID: 1612947255}
   - {fileID: 1162237849}
   - {fileID: 1542882427}
-  - {fileID: 1163860576}
   - {fileID: 1263512034}
   m_Father: {fileID: 1714030048}
   m_RootOrder: 0
@@ -3915,7 +3915,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4654,8 +4654,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 923886736}
-  - component: {fileID: 923886735}
   - component: {fileID: 923886737}
+  - component: {fileID: 923886735}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -4671,10 +4671,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 923886734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ed86fbc19d7029478d12b5396551bd2, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f188f7be66fa2e49895fb29a0b0bc9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generatingReport: {fileID: 1163860575}
+  modalWindow: {fileID: 1163860575}
 --- !u!4 &923886736
 Transform:
   m_ObjectHideFlags: 0
@@ -5608,12 +5608,12 @@ RectTransform:
   m_Children:
   - {fileID: 1758747273}
   - {fileID: 864136482}
-  m_Father: {fileID: 569146637}
-  m_RootOrder: 22
+  m_Father: {fileID: 137896923}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.950073, y: 761}
+  m_AnchoredPosition: {x: 1.5, y: 4.5}
   m_SizeDelta: {x: 615, y: 710}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1163860577
@@ -6333,7 +6333,7 @@ Prefab:
     - target: {fileID: 224572669328404652, guid: 6ef7b609a37968f40a06e126055e20d2,
         type: 2}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 224572669328404652, guid: 6ef7b609a37968f40a06e126055e20d2,
         type: 2}
@@ -8361,7 +8361,7 @@ MonoBehaviour:
     lineCount: 0
     pageCount: 0
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -8691,7 +8691,7 @@ Prefab:
     - target: {fileID: 114236667136880228, guid: 8dcf01b0349b9f14fae8a664bb990467,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114236667136880228, guid: 8dcf01b0349b9f14fae8a664bb990467,
         type: 2}
@@ -8706,7 +8706,7 @@ Prefab:
     - target: {fileID: 114236667136880228, guid: 8dcf01b0349b9f14fae8a664bb990467,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeToFinal
+      value: Show
       objectReference: {fileID: 0}
     - target: {fileID: 114236667136880228, guid: 8dcf01b0349b9f14fae8a664bb990467,
         type: 2}
@@ -8752,6 +8752,11 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: Report
+      objectReference: {fileID: 0}
+    - target: {fileID: 114236667136880228, guid: 8dcf01b0349b9f14fae8a664bb990467,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dcf01b0349b9f14fae8a664bb990467, type: 2}
@@ -8892,7 +8897,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -9987,7 +9992,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00002169609, y: 0.000027564662}
+  m_AnchoredPosition: {x: 0.000012636185, y: 0.000027564662}
   m_SizeDelta: {x: -3.0001, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1714030049
@@ -10225,7 +10230,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -11536,7 +11541,7 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -11726,7 +11731,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -12682,7 +12687,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}

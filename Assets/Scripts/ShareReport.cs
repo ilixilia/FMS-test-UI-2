@@ -9,13 +9,21 @@ public class ShareReport : MonoBehaviour {
     public InputField email2;
     public InputField email3;
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public string mail2;
+    public string mail3;
+
+    void Start()
+    {
+        email1.text = PlayerPrefs.GetString("Mail");
+        Share();
+    }
+
+    public void Share()
+    {
+        mail2 = email2.text;
+        mail3 = email3.text;
+
+        PlayerPrefs.SetString("Mail2", mail2);
+        PlayerPrefs.SetString("Mail3", mail3);
+    }
 }
