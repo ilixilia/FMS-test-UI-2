@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/First-page.unity
+- path: Assets/Scenes/Check-your-Muve.unity
   isLoaded: 1
   isActive: 1
