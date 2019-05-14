@@ -34,8 +34,26 @@ public class BarChart : MonoBehaviour {
             Bar newBar = Instantiate(barPrefab) as Bar;
             newBar.transform.SetParent(transform);
             RectTransform rt = newBar.bar.GetComponent<RectTransform>();
-            float normalizedValue = (float)vals[i]/(float)maxValue * 0.049f;
-            rt.sizeDelta = new Vector2(rt.sizeDelta.x, chartHeight * normalizedValue);
+
+            if (i == 0 || i == 1)
+            {
+                float normalizedValue = (float)vals[i] / (float)maxValue * 0.043f;
+                rt.sizeDelta = new Vector2(rt.sizeDelta.x, chartHeight * normalizedValue);
+            } else if (i == 2)
+            {
+                float normalizedValue = (float)vals[i] / (float)maxValue * 0.049f;
+                rt.sizeDelta = new Vector2(rt.sizeDelta.x, chartHeight * normalizedValue);
+            } else if (i == 3 || i == 4 || i == 5)
+            {
+                float normalizedValue = (float)vals[i] / (float)maxValue * 0.028f;
+                rt.sizeDelta = new Vector2(rt.sizeDelta.x, chartHeight * normalizedValue);
+            } else if (i == 6)
+            {
+                float normalizedValue = (float)vals[i] / (float)maxValue * 0.019f;
+                rt.sizeDelta = new Vector2(rt.sizeDelta.x, chartHeight * normalizedValue);
+            }
+
+            //rt.sizeDelta = new Vector2(rt.sizeDelta.x, chartHeight * normalizedValue);
         }
     }
 

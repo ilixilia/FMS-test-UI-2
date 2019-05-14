@@ -17,6 +17,9 @@ public class DisplayInfo : MonoBehaviour {
     public Text heighttxtBox;
     public Text weighttxtBox;
 
+    public Text conditionText;
+    public Text scoreText;
+
     public float slider1;
     public float slider2;
     public float slider3;
@@ -66,6 +69,8 @@ public class DisplayInfo : MonoBehaviour {
         agetxtBox.text = PlayerPrefs.GetString("Age");
         heighttxtBox.text = PlayerPrefs.GetString("Height");
         weighttxtBox.text = PlayerPrefs.GetString("Weight");
+        conditionText.text = "FAIR";
+        scoreText.text = "51";
 
         showAreas();
 
@@ -108,6 +113,7 @@ public class DisplayInfo : MonoBehaviour {
             area1.SetActive(false);
             area11.SetActive(false);
         } else*/
+
         if (slider1 == 1)
         {
             area1.SetActive(true);
