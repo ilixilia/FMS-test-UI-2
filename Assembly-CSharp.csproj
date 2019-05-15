@@ -92,11 +92,11 @@
     <Compile Include="Assets\Scripts\ModelWindowController.cs" />
     <Compile Include="Assets\Scripts\Share.cs" />
     <Compile Include="Assets\Scripts\ShareReport.cs" />
+    <Compile Include="Assets\Scripts\ShowVideo.cs" />
+    <Compile Include="Assets\Scripts\SkipToggle.cs" />
     <Compile Include="Assets\Scripts\sliders.cs" />
     <Compile Include="Assets\Scripts\test.cs" />
     <Compile Include="Assets\Scripts\WindowController.cs" />
-    <Compile Include="Assets\ShowVideo.cs" />
-    <Compile Include="Assets\SkipToggle.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
