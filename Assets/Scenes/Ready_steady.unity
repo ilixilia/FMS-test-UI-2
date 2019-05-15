@@ -4233,7 +4233,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -22809,12 +22809,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uploaded1: {fileID: 1429715287}
-  uploaded2: {fileID: 0}
-  uploaded3: {fileID: 0}
-  uploaded4: {fileID: 0}
-  uploaded5: {fileID: 0}
-  uploaded6: {fileID: 0}
-  uploaded7: {fileID: 0}
+  uploaded2: {fileID: 1030594545}
+  uploaded3: {fileID: 2125760587}
+  uploaded4: {fileID: 303732826}
+  uploaded5: {fileID: 1126483770}
+  uploaded6: {fileID: 1897422739}
+  uploaded7: {fileID: 475175667}
 --- !u!1 &2086250794
 GameObject:
   m_ObjectHideFlags: 0
