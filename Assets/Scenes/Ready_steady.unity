@@ -2647,7 +2647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.000038146973, y: -0.9000244}
+  m_AnchoredPosition: {x: -0.000038146973, y: 6}
   m_SizeDelta: {x: 0, y: -0.85001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249795606
@@ -2780,14 +2780,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 550028626}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2074197859}
+        m_MethodName: uploadExercise5
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -5249,14 +5249,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2135395931}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2074197859}
+        m_MethodName: uploadExercise6
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -7277,8 +7277,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.263}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 128}
-  m_SizeDelta: {x: 1440, y: 824}
+  m_AnchoredPosition: {x: 0, y: 136.51}
+  m_SizeDelta: {x: 1440, y: 878.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &630417090
 MonoBehaviour:
@@ -7833,8 +7833,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000019073486, y: -0.025024414}
-  m_SizeDelta: {x: 0, y: -0.049927}
+  m_AnchoredPosition: {x: 0.000019073486, y: 34.1}
+  m_SizeDelta: {x: 0, y: 68.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &698537767
 GameObject:
@@ -7932,14 +7932,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 180240771}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2074197859}
+        m_MethodName: uploadExercise4
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -8214,14 +8214,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 823435944}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2074197859}
+        m_MethodName: uploadExercise3
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -8650,14 +8650,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1530860628}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2074197859}
+        m_MethodName: uploadExercise7
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -9208,8 +9208,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1080}
-  m_SizeDelta: {x: 1440, y: 1080}
+  m_AnchoredPosition: {x: 0, y: 1152}
+  m_SizeDelta: {x: 1440, y: 1152}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &871959949
 MonoBehaviour:
@@ -11143,14 +11143,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1429715287}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2074197859}
+        m_MethodName: uploadExercise1
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -11355,14 +11355,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 626558318}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2074197859}
+        m_MethodName: uploadExercise2
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -14247,7 +14247,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 249795605}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.31958336
+  m_Size: 0.34088892
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -19878,7 +19878,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2015680799}
   m_HandleRect: {fileID: 2015680798}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -21872,6 +21872,7 @@ GameObject:
   - component: {fileID: 2074197855}
   - component: {fileID: 2074197857}
   - component: {fileID: 2074197858}
+  - component: {fileID: 2074197859}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -21948,6 +21949,24 @@ MonoBehaviour:
   uploaded7: {fileID: 1530860630}
   skipExercise: {fileID: 1245522616}
   NotaBene: {fileID: 184131426}
+--- !u!114 &2074197859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2074197854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc595bd11d4f95a418d5860d3ff5586d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uploaded1: {fileID: 1429715287}
+  uploaded2: {fileID: 626558318}
+  uploaded3: {fileID: 823435944}
+  uploaded4: {fileID: 180240771}
+  uploaded5: {fileID: 550028626}
+  uploaded6: {fileID: 2135395931}
+  uploaded7: {fileID: 1530860628}
 --- !u!1 &2075639535
 GameObject:
   m_ObjectHideFlags: 0

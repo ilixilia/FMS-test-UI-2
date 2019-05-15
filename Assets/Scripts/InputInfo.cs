@@ -7,7 +7,7 @@ public class InputInfo : MonoBehaviour {
 
     public Toggle isMale;
     public Toggle isFemale;
- 
+     
     //Age input field
     public InputField ageField;
     
@@ -30,7 +30,7 @@ public class InputInfo : MonoBehaviour {
     public string userWeight;
     public string userSex;
 
-    //Check active toggle
+        //Check active toggle
     public void ActiveToggle()
     {
         userSex = "Male";
