@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Learn-more.unity
+- path: Assets/Scenes/Ready_steady.unity
   isLoaded: 1
   isActive: 1
