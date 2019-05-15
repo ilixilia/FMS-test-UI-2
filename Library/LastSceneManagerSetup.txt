@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/First-page.unity
+- path: Assets/Scenes/Learn-more.unity
   isLoaded: 1
   isActive: 1
